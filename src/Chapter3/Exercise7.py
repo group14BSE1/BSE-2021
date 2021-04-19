@@ -5,6 +5,7 @@ job_area = input("Enter the Location of work:")
 job_wage = input("Enter The wage provided:")
 
 # Check if the user entered something at both data entry points
+# Use the len() function
 if len(job_wage) > 0 and len(job_area):
 
     try:

@@ -4,7 +4,7 @@ score_raw = input("Enter a score:")
 # check if score is numeric and within the range
 try:
     score = float(score_raw)
-    if 0 < score < 1.0:
+    if 0 < score < 1.0
         if score >= 0.9:
             print(score, "A")
         elif score >= 0.8:
