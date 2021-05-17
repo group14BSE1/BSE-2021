@@ -5,17 +5,6 @@ st_quarters = 25 # 25 cents are in a quarter
 st_ones = 0 # 100 cents are in one dollar
 st_fives = 0 # 500 cents are in 5 dollars
 
-def incre_decre_determiner(value_cents, current_deposit):
-	if (current_deposit - value_cents) > 0:
-		return True
-	elif (current_deposit - value_cents) == 0:
-		return 0
-	else:
-		return False
-
-
-def deposit_determiner(deposit):
-	global st_nickles, st_dimes, st_quarters, st_ones, st_fives
 
 def deposit_determiner(deposit):
 	global st_nickles, st_dimes, st_quarters, st_ones, st_fives
